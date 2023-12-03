@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(43, 172, 43, 0.974);
+}
+
+
+.head  {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(43, 172, 43, 0.974);
+    
+}
+
+.logo {
+    width: 70%;
+    height: 100%;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100%;
+}
+
+.menu {
+    width:25%;
+    height: 100%;
+}
+
+.social1 {
+    
+    width:25%;
+    height: 100%;
+}
+.social2 {
+    width:25%;
+    height: 100%;
+}
+.social3 {
+    width:25%;
+    height: 100%;
+}
+
+
+.main {
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.leftside {
+    width: 65%;
+    height: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+
+.rightside {
+    width: 35%;
+    height: 100%;
+    
+}
+
+.right1 {
+    width:80%;
+    height:50%;
+    
+}
+
+.right2 {
+    width:80%;
+    height:50%;
+    
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: grey;
+}
